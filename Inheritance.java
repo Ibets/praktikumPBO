@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Praktikum1;
 
 class KRS{
     String nama , alamat ,nomorTelepon,jenisKelamin;
@@ -73,7 +67,7 @@ class Mahasiswa extends KRS{
         System.out.println(this.nomorIndukMahasiswa);
     }
 }
-public class Inheritance {
+public class main {
     public static void main(String[]args){
         KRS mahasiswa1=new KRS("joko","malang","01930912","lakilaki");
         mahasiswa1.print();
